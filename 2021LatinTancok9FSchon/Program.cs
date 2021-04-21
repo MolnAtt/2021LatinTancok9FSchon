@@ -35,7 +35,7 @@ namespace _2021LatinTancok9FSchon
             Console.Error.WriteLine(lista.Count);
 
             Console.WriteLine($"2. feladat: Az első tánc neve: {lista[0].tipus}, az utolsó tánc neve pedig: {lista.Last().tipus}");
-            Console.WriteLine($"3. feladat: a samba-t táncolók száma: ");
+            Console.Write($"3. feladat: a samba-t táncolók száma: ");
 
             int sambadb =0;
             foreach (Adat adat in lista)
@@ -47,6 +47,8 @@ namespace _2021LatinTancok9FSchon
             }
 
             Console.WriteLine(sambadb);
+
+            Console.WriteLine("4. feladat: Vilma a következő táncokban szerepelt:");
 
             foreach (Adat adat in lista)
             {
